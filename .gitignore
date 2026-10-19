@@ -1,0 +1,19 @@
+.pio
+.vscode/.browse.c_cpp.db*
+.vscode/c_cpp_properties.json
+.vscode/launch.json
+.vscode/ipch
+
+# 移植先など外部プロジェクトの参照用clone（コミットしない）
+reference/
+
+# build_avatar.py の確認用プレビュー・Python キャッシュ（コミットしない）
+build/
+__pycache__/
+
+# 生成物（build_avatar.py が作る。uploadfs の入力）
+data/
+
+# 利用者自身のキャラクター素材（権利の都合で同梱しない。assets/.gitkeep だけを残す）
+assets/*
+!assets/.gitkeep
